@@ -19,3 +19,14 @@ exercises.c:43:22: error: initialization makes pointer from integer without a ca
 cc1.exe: all warnings being treated as errors
 Compilation failed
 2aca5ef
+Sat Mar 12 13:43:30 HSP 2022: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:45:14: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    subArreglo=a[primerDato];
+              ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+b361ee9
