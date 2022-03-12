@@ -93,3 +93,14 @@ Sat Mar 12 14:19:03 HSP 2022:
  tests:  3|4
 total_score: 30/70
 2e6471e
+Sat Mar 12 14:23:08 HSP 2022: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+test.c: In function 'crearVector':
+exercises.c:90:24: error: 'vectorCreado' is used uninitialized in this function [-Werror=uninitialized]
+    vectorCreado->datos = (int*) calloc(n, sizeof(int));
+    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+7060289
