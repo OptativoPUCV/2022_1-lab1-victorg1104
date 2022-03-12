@@ -38,11 +38,11 @@ Utilice la función sumaN.
 
 void sumaNultimos(int a[], int n, int m, int * suma) 
 {
-   int primerDato=n-m;
+   int i=n-m;
 
    int* subArreglo = (int*) malloc(sizeof(int)*m);
 
-   subArreglo=a[primerDato];
+   subArreglo = (a+(i-1));
 
    *suma=sumaN(subArreglo, m);
 }
