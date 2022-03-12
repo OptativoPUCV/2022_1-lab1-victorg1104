@@ -65,3 +65,14 @@ exercises.c:67:11: error: 'usuario' is used uninitialized in this function [-Wer
 cc1.exe: all warnings being treated as errors
 Compilation failed
 6cd0967
+Sat Mar 12 14:16:30 HSP 2022: 
+ exercises.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:71:11: error: function returns address of local variable [-Werror=return-local-addr]
+    return &usuario;
+           ^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+feb113d
