@@ -42,7 +42,7 @@ void sumaNultimos(int a[], int n, int m, int * suma)
 
    int* subArreglo = (int*) malloc(sizeof(int)*m);
 
-   subArreglo = (a+(i-1));
+   subArreglo = (a+i);
 
    *suma=sumaN(subArreglo, m);
 }
