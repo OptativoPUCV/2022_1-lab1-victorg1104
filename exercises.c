@@ -38,7 +38,11 @@ Utilice la función sumaN.
 
 void sumaNultimos(int a[], int n, int m, int * suma) 
 {
-   
+   int primerDato=n-m;
+
+   int* subArreglo = a[primerDato-1];
+
+   *suma=sumaN(subArreglo, m);
 }
 
 /*
