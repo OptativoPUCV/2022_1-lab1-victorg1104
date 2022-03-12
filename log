@@ -104,3 +104,9 @@ exercises.c:90:24: error: 'vectorCreado' is used uninitialized in this function 
 cc1.exe: all warnings being treated as errors
 Compilation failed
 7060289
+Sat Mar 12 14:24:21 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+b9f8a59
